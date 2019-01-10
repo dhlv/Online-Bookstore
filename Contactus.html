@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Contact us</title>
+      <link rel="stylesheet" href="MyStyles.css" type="text/css">
+      <script src="MyScripts.js"></script>
+   </head>
+   <body  oncontextmenu="return false" onmousedown="block(event)">
+      <div id="top">
+         <div class="container">
+            <div class="grid_1">
+            </div>
+            <div class="grid_4">
+               <nav>
+                  <ul>
+                     <li><a href="">sign in</a></li>
+                     <li><a href="">log in</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+      <header>
+         <div class="container">
+            <div class="grid_1">
+               <section id="hgroup">
+                  <h1 id="logo"><a href="" title=""><img src="images/logo.png" alt="Online Store Theme Logo"></a></h1>
+               </section>
+            </div>
+            <div class="grid_4">
+               <div class="top_header">
+                  <div class="welcome">
+                     <h2>Welcome to 'A' STORE !</h2>
+                  </div>
+                  <form class="search">
+                     <input name="submit" type="submit" class="search_button" value="">
+                     <input type="text" name="search" class="search_form" value="" >
+                  </form>
+               </div>
+               <nav class="primary">
+                  <ul>
+                     <li ><a href="index.html">Homepage</a></li>
+                     <li><a href="Aboutus.html">About us</a></li>
+                     <li >
+                        <a href="OurBooks.html">Books</a>                      
+                     </li>
+                     <li><a href="Contactus.html">Contact us</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <section id="main" class="page-contact">
+         <div class="container">
+            <div id="content" class="grid_6">
+               <header>
+                  <h1 class="page_title">Let us know</h1>
+               </header>
+               <article>
+                  <div class="grid_3 address">
+                     <h3>Our Location</h3>
+                     <p>222222 Borie Street,Halifax</p>
+                     <hr>
+                     <h3>Contact</h3>
+                     <p>Phone：1-800-123-XXXX </p>
+                     <p>&nbsp;</p>
+                  </div>
+                  <div class="grid_3 form">
+                     <form class="contact" onsubmit="return Check(this)" action="mailto:dn570152@dal.ca" method="post" enctype="text/plain">
+                        <h2>Leave a message</h2>
+                        <div class="name">
+                           <strong>Name:</strong><sup>*</sup><br>
+                           <input type="text" id="name" name="name">
+                        </div>
+                        <div class="email">
+                           <strong>E-mail:</strong><sup>*</sup><br>
+                           <input type="email" id="email" name="email">
+                        </div>
+                        <div class="phone">
+                           <strong>Phone (XXX-XXX-XXXX):</strong><sup>*</sup><br>
+                           <input  id="phone" name="phone" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
+                        </div>
+                        <div class="comment">
+                           <strong>Your voice:</strong><sup>*</sup><br>
+                           <textarea id="comment" name="comment"></textarea>
+                        </div>
+                        <button id="submit" type="submit" >Submit</button>
+                     </form>
+                  </div>
+               </article>
+            </div>
+         </div>
+      </section>
+      <div class="clear"></div>
+      <div class="footer_info">
+         <footer>&#169; 2018-2019, 'A'Store, By DonghaoLv</footer>
+         <div class="grid_3">
+            <div class="social">
+               <a class="google" href="#"></a>
+               <a class="twitter" href="#"></a>
+               <a class="facebook" href="#"></a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
